@@ -1,0 +1,5 @@
+library(Rcpp)
+library(RcppEigen)
+install.packages("MAGICImpute_1.0.tar.gz", repos=NULL)
+library(MAGICImpute)
+D <- MAGIC(D,M,9)
